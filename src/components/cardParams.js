@@ -1,6 +1,6 @@
-import device from '../icons/device.svg';
-import laptop from '../icons/laptop.svg';
-import monitor from '../icons/monitor.svg';
+import device from '../icons/device.png';
+import laptop from '../icons/laptop.png';
+import monitor from '../icons/monitor.png';
 
 export const cardParams = [
     {
