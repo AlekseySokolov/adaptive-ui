@@ -1,0 +1,53 @@
+.item {
+    padding: 20px 40px;
+    flex-basis: 33.3%;
+    vertical-align: top;
+    border-radius: 4px;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    text-decoration: none;
+    font-family: Verdana;
+    color: #5673D5;
+    transition: background 0.15s ease-in-out;
+}
+
+.item:hover {
+    background-color: #f5f5f5;
+    transition: background 0.15s ease-in-out;
+}
+
+.item__icon {
+    width: 70px;
+    height: 70px;
+    margin-bottom: 20px;
+}
+
+.item__title {
+    margin: 15px 0;
+    font-size: 18px;
+}
+
+p {
+    display: block;
+    margin: 20px 0;
+}
+
+.item__text {
+    text-align: center;
+    font-size: 11px;
+    line-height: 18px;
+    color: #A7A7A7;
+}
+
+.item__price {
+    font-size: 12px;
+}
+
+.item__currency {
+    font-size: 14px;
+}
+
+.item__value {
+    font-size: 30px;
+}
